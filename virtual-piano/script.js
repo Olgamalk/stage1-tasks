@@ -45,5 +45,5 @@ const stopCorrespondOver  = () => {
     });
 }
 
-PIANO.addEventListener("mousedown", startCorrespondOver, false);
+PIANO.addEventListener("mousedown", startCorrespondOver, false)
 PIANO.addEventListener("mouseup", stopCorrespondOver)
